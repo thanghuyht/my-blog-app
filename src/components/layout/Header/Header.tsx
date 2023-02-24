@@ -42,7 +42,7 @@ function Header() {
 
   return (
     <header>
-      <nav className="w-full font-special fixed bg-white z-50">
+      <nav className="w-full  fixed bg-white z-50">
         <div className="max-w-[1280px] grid grid-cols-3 gap-4 justify-between items-center h-[88px] mr-auto ml-auto px-16 text-orange-900">
           <ul className="flex gap-5">
             <li>
@@ -55,7 +55,7 @@ function Header() {
               <Link to="/library">Resposive library</Link>
             </li>
           </ul>
-          <span className="font-global text-[40px] text-center hover:text-blue-800 hover:duration-500">
+          <span className="font-special text-[40px] text-center hover:text-blue-800 hover:duration-500">
             <Link to="/">the wordy habitat</Link>
           </span>
           <ul className="flex flex-row gap-3 leading-8  ml-auto">
