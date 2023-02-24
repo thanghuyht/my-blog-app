@@ -1,0 +1,1 @@
+export { SliderContent as default} from "./SliderContent"

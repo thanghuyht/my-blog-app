@@ -1,0 +1,1 @@
+export {FormContact as default} from './FormContact'

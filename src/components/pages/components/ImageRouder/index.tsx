@@ -1,0 +1,1 @@
+export {ImageRouder as default } from "./ImageRouder"
