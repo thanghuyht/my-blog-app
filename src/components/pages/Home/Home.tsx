@@ -134,8 +134,8 @@ export function Home() {
             </h3>
             <div>
               <ul className="flex gap-8 items-start justify-center -mt-12">
-                <li className="w-1/4 group">
-                  <div className="w-[260px] h-[260px] border-8 border-[#f0e7de] rounded-full relative  ">
+                <li className="w-1/4 ">
+                  <div className="w-[260px] h-[260px] border-8 border-[#f0e7de] rounded-full relative group">
                     <a
                       className="block w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  "
                       href="https://vnexpress.net/ "
@@ -147,7 +147,7 @@ export function Home() {
                       />
                     </a>
                     <a
-                      className="hidden group-hover:flex opacity-0 group-hover:opacity-70 group-hover:transition-opacity bg-slate-50 rounded-full w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center justify-center"
+                      className="bg-slate-50 rounded-full flex w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center justify-center opacity-0 group-hover:opacity-80 group-hover:transition-opacity group-hover:duration-300"
                       href="https://vnexpress.net/"
                     >
                       <span className=" text-center p-6">
@@ -170,7 +170,7 @@ export function Home() {
                       />
                     </a>
                     <a
-                      className="hidden group-hover:flex opacity-0 group-hover:opacity-70 group-hover:transition-opacity bg-slate-50 rounded-full w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center justify-center"
+                      className="bg-slate-50 rounded-full flex w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center justify-center opacity-0 group-hover:opacity-80 group-hover:transition-opacity group-hover:duration-300"
                       href="https://vnexpress.net/"
                     >
                       <span className=" text-center p-6">
@@ -193,7 +193,7 @@ export function Home() {
                       />
                     </a>
                     <a
-                      className="hidden group-hover:flex opacity-0 group-hover:opacity-70 group-hover:transition-opacity bg-slate-50 rounded-full w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center justify-center"
+                      className="bg-slate-50 rounded-full flex w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center justify-center opacity-0 group-hover:opacity-80 group-hover:transition-opacity group-hover:duration-300"
                       href="https://vnexpress.net/"
                     >
                       <span className=" text-center p-6">
@@ -216,7 +216,7 @@ export function Home() {
                       />
                     </a>
                     <a
-                      className="hidden group-hover:flex opacity-0 group-hover:opacity-70 group-hover:transition-opacity bg-slate-50 rounded-full w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center justify-center"
+                      className="bg-slate-50 rounded-full flex w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center justify-center opacity-0 group-hover:opacity-80 group-hover:transition-opacity group-hover:duration-300"
                       href="https://vnexpress.net/"
                     >
                       <span className=" text-center p-6">
