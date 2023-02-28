@@ -1,7 +1,6 @@
 import Slider from "react-slick";
 import FormContact from "../components/FormContact";
 import SliderContent from "../components/SliderContent";
-import { MdPushPin } from "react-icons/md";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Button from "../../global/Button";
 import Product from "../components/Product";
@@ -19,7 +18,7 @@ export function Home() {
     <div className="pt-24">
       {/* BEGIN Slider */}
       <div className=" bg-[#f0e7de]">
-        <div className="w-[1200px] h-[500px] mx-auto bg-transparent pt-16">
+        <div className="max-w-screen-xl h-[500px] mx-auto bg-transparent pt-16">
           <Slider {...settings}>
             <div>
               <SliderContent />
@@ -40,7 +39,7 @@ export function Home() {
 
       {/* BEGIN Form contact */}
       <div className=" bg-white mt-20">
-        <div className="flex items-center justify-center text-center gap-14 w-[1200px] h-[180px] mx-auto">
+        <div className="flex items-center justify-center text-center gap-14 max-w-screen-xl h-[180px] mx-auto">
           <div className="w-1/4">
             <h2 className=" font-special text-amber-900 text-2xl mb-3">
               join the inner circle
@@ -56,7 +55,7 @@ export function Home() {
 
       {/* BEGIN Infor */}
       <div className="bg-[#f0e7de] pt-16 pb-40">
-        <div className="w-[1200px] mx-auto flex flex-row justify-center items-center">
+        <div className="max-w-screen-xl mx-auto flex flex-row justify-center items-center">
           <div className="w-3/4">
             <div className="relative">
               <img
@@ -100,7 +99,7 @@ export function Home() {
 
       {/* BEGIN collection */}
       <div>
-        <div className="w-[1200px] mx-auto mt-6 mb-6">
+        <div className="max-w-screen-xl mx-auto mt-6 mb-6">
           <div className="grid grid-cols-2 gap-10 py-12">
             <Product />
             <Product />
@@ -124,114 +123,6 @@ export function Home() {
         </div>
       </div>
       {/* END collection */}
-
-      {/* BEGIN  SUGGEST */}
-      <div>
-        <div className="w-[1200px] h-[380px] mx-auto">
-          <div className="mx-auto">
-            <h3 className="text-center text-2xl font-special text-[#5c3f33]">
-              readers are <i>loving </i> there!
-            </h3>
-            <div>
-              <ul className="flex gap-8 items-start justify-center -mt-12">
-                <li className="w-1/4 ">
-                  <div className="w-[260px] h-[260px] border-8 border-[#f0e7de] rounded-full relative group">
-                    <a
-                      className="block w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  "
-                      href="https://vnexpress.net/ "
-                    >
-                      <img
-                        className="block w-[220px] h-[220px] rounded-full"
-                        src="https://i0.wp.com/thewordyhabitat.com/wp-content/uploads/2021/03/a-book-with-sticky-tabs-illustration-art.jpg?resize=450%2C450&ssl=1"
-                        alt="1"
-                      />
-                    </a>
-                    <a
-                      className="bg-slate-50 rounded-full flex w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center justify-center opacity-0 group-hover:opacity-80 group-hover:transition-opacity group-hover:duration-300"
-                      href="https://vnexpress.net/"
-                    >
-                      <span className=" text-center p-6">
-                        30 Best Kindle Unlimited Romance Books That Will Hook
-                        You In
-                      </span>
-                    </a>
-                  </div>
-                </li>
-                <li className="w-1/4 group">
-                  <div className="w-[260px] h-[260px] mt-24 border-8 border-[#f0e7de] rounded-full relative">
-                    <a
-                      className="block w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  "
-                      href="https://vnexpress.net/ "
-                    >
-                      <img
-                        className="block w-[220px] h-[220px] rounded-full"
-                        src="https://i0.wp.com/thewordyhabitat.com/wp-content/uploads/2021/03/a-book-with-sticky-tabs-illustration-art.jpg?resize=450%2C450&ssl=1"
-                        alt="1"
-                      />
-                    </a>
-                    <a
-                      className="bg-slate-50 rounded-full flex w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center justify-center opacity-0 group-hover:opacity-80 group-hover:transition-opacity group-hover:duration-300"
-                      href="https://vnexpress.net/"
-                    >
-                      <span className=" text-center p-6">
-                        30 Best Kindle Unlimited Romance Books That Will Hook
-                        You In
-                      </span>
-                    </a>
-                  </div>
-                </li>
-                <li className="w-1/4 group">
-                  <div className="w-[256px] h-[256px] mt-24 border-8 border-[#f0e7de] rounded-full relative  ">
-                    <a
-                      className="block w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  "
-                      href="https://vnexpress.net/ "
-                    >
-                      <img
-                        className="block w-[220px] h-[220px] rounded-full"
-                        src="https://i0.wp.com/thewordyhabitat.com/wp-content/uploads/2021/03/a-book-with-sticky-tabs-illustration-art.jpg?resize=450%2C450&ssl=1"
-                        alt="1"
-                      />
-                    </a>
-                    <a
-                      className="bg-slate-50 rounded-full flex w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center justify-center opacity-0 group-hover:opacity-80 group-hover:transition-opacity group-hover:duration-300"
-                      href="https://vnexpress.net/"
-                    >
-                      <span className=" text-center p-6">
-                        30 Best Kindle Unlimited Romance Books That Will Hook
-                        You In
-                      </span>
-                    </a>
-                  </div>
-                </li>
-                <li className="w-1/4 group">
-                  <div className="w-[260px] h-[260px] border-8 border-[#f0e7de] rounded-full relative  ">
-                    <a
-                      className="block w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  "
-                      href="https://vnexpress.net/ "
-                    >
-                      <img
-                        className="block w-[220px] h-[220px] rounded-full"
-                        src="https://i0.wp.com/thewordyhabitat.com/wp-content/uploads/2021/03/a-book-with-sticky-tabs-illustration-art.jpg?resize=450%2C450&ssl=1"
-                        alt="1"
-                      />
-                    </a>
-                    <a
-                      className="bg-slate-50 rounded-full flex w-[220px] h-[220px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center justify-center opacity-0 group-hover:opacity-80 group-hover:transition-opacity group-hover:duration-300"
-                      href="https://vnexpress.net/"
-                    >
-                      <span className=" text-center p-6">
-                        30 Best Kindle Unlimited Romance Books That Will Hook
-                        You In
-                      </span>
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* END  SUGGEST */}
     </div>
   );
 }
