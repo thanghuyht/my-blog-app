@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Làm lại trang Blog của người khác bằng React TypeScript vừa học vừa làm 02/2023
 
-![image](https://user-images.githubusercontent.com/112876270/221115036-17c8cd1a-e375-43da-a954-3825e8f660bd.png)
+![image](https://user-images.githubusercontent.com/112876270/221125044-f1393550-d311-4c28-b63c-acc895fdb445.png)
 
 
 Dependencies:
