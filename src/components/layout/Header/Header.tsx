@@ -68,7 +68,12 @@ function Header() {
               </li>
             </div>
             <div className="flex gap-3">
-              <IconsMenu />
+              <IconsMenu
+                className={[
+                  "flex flex-auto justify-center items-center gap-2 ",
+                ]}
+                iconHoverEffect={["hover:text-red-400 duration-300"]}
+              />
               <button
                 className="hover:text-orange-500 hover:duration-150 text-sm"
                 onClick={openModal}
