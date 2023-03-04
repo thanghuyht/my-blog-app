@@ -3,7 +3,7 @@ import FormContact from "../components/FormContact";
 import SliderContent from "../components/SliderContent";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Button from "../../global/Button";
-import Product from "../components/Product";
+import Bookshelf from "../components/Bookshelf";
 
 export function Home() {
   var settings = {
@@ -101,10 +101,10 @@ export function Home() {
       <div>
         <div className="max-w-screen-xl mx-auto mt-6 mb-6">
           <div className="grid grid-cols-2 gap-10 py-12">
-            <Product />
-            <Product />
-            <Product />
-            <Product />
+            <Bookshelf />
+            <Bookshelf />
+            <Bookshelf />
+            <Bookshelf />
           </div>
           <div className="mt-4 mb-24 text-center">
             <Button

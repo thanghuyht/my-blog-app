@@ -4,9 +4,9 @@ export function Footer() {
   return (
     <footer>
       {/* BEGIN  SUGGEST */}
-      <div className="bg-white mt-10">
+      <div className="bg-white">
         <div className="max-w-screen-xl h-[380px] mx-auto ">
-          <div className="mx-auto">
+          <div>
             <h3 className="text-center text-2xl font-special text-[#5c3f33]">
               readers are <i>loving </i> there!
             </h3>

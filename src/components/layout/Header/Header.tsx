@@ -43,7 +43,7 @@ function Header() {
   return (
     <header>
       <nav className="w-full  fixed bg-white z-50">
-        <div className="mmax-w-screen-xl grid grid-cols-3 gap-4 justify-between items-center h-[88px] mr-auto ml-auto px-16 text-orange-900">
+        <div className="max-w-screen-xl grid grid-cols-3 gap-4 justify-between items-center h-[88px] mr-auto ml-auto px-16 text-orange-900">
           <ul className="flex gap-5">
             <li>
               <Link to="/">Home</Link>
